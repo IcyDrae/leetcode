@@ -1,0 +1,12 @@
+# Documentation, org mode
+.vorg.db
+
+# Maven/Java
+target
+
+# VSCodium
+.vscode
+
+
+
+
