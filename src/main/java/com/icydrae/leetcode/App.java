@@ -1,13 +1,14 @@
 package com.icydrae.leetcode;
 
-/**
- * Hello world!
- *
- */
+import com.icydrae.leetcode.Solutions.Problem001MaximumSubarray;
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        new Problem001MaximumSubarray()
+            .maxSubArray(
+                new int[] {-2,1,-3,4,-1,2,1,-5,4}
+        );
     }
 }
