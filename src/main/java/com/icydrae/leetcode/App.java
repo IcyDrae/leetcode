@@ -11,11 +11,18 @@ import com.icydrae.leetcode.Solutions.Problem007ValidSudoku;
 import com.icydrae.leetcode.Theory.Theory001BubbleSort;
 import com.icydrae.leetcode.Theory.Theory002SelectionSort;
 import com.icydrae.leetcode.Theory.Theory003MergeSort;
+import com.icydrae.leetcode.Theory.Theory003MergeSort2;
 
 public class App
 {
     public static void main( String[] args )
     {
-        new Theory003MergeSort().sort();
+        int[] arr = new int[] { 20, 10, 0, 80, 40, 15 };
+
+        new Theory003MergeSort2().sort(
+            arr,
+            0,
+            arr.length - 1
+        );
     }
 }
