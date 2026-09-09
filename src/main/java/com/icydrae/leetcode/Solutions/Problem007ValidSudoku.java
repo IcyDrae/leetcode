@@ -6,8 +6,11 @@ import java.util.Set;
 // https://leetcode.com/problems/valid-sudoku/
 public class Problem007ValidSudoku {
     public boolean isValidSudoku(char[][] board) {
+        @SuppressWarnings("unchecked")
         Set<Character>[] rowSet = new HashSet[9];
+        @SuppressWarnings("unchecked")
         Set<Character>[] colSet = new HashSet[9];
+        @SuppressWarnings("unchecked")
         Set<Character>[] gridSet = new HashSet[9];
 
         for (int i = 0; i < 9; i++) {
