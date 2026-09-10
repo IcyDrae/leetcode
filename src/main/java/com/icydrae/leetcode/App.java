@@ -8,6 +8,7 @@ import com.icydrae.leetcode.Solutions.Problem005RotateArray;
 import com.icydrae.leetcode.Solutions.Problem006MaxConsecutiveOnes;
 import com.icydrae.leetcode.Solutions.Problem007ValidSudoku;
 import com.icydrae.leetcode.Solutions.Problem008NumberOfProvinces;
+import com.icydrae.leetcode.Solutions.Problem009RedundantConnection;
 
 import com.icydrae.leetcode.Theory.Theory001BubbleSort;
 import com.icydrae.leetcode.Theory.Theory002SelectionSort;
@@ -18,12 +19,12 @@ public class App
 {
     public static void main( String[] args )
     {
-        new Problem008NumberOfProvinces()
-            .findCircleNum(
+        new Problem009RedundantConnection()
+            .findRedundantConnection(
                 new int[][] {
-                    {1,1,0},
-                    {1,1,0},
-                    {0,0,1}
+                    {1, 2},
+                    {1, 3},
+                    {2, 3}
                 }
             );
     }
